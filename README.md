@@ -4,7 +4,7 @@
  * 1x [USB ISP Programmer für ATMEL AVR](https://de.aliexpress.com/item/1LOT-New-USBASP-USBISP-AVR-Programmer-USB-ISP-USB-ASP-ATMEGA8-ATMEGA128-Support-Win7-64/32724669918.html)
 
 
-1. Anleitung zur Instalation des Treibers und Avrdude hier http://stefanfrings.de/avr_tools/#avrdude
+1. Anleitung zur Installation des Treibers und Avrdude hier http://stefanfrings.de/avr_tools/#avrdude
 
 Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
 
