@@ -20,4 +20,4 @@ Wenn Ihr alles richtig gemacht habt sieht es wie folgt aus.
 ![complete](Images/3.jpg)
 
 Jetzt sind die Fuse Bits geändert! 
--> Jetzt Schaltet der Arduino bei Batteriebetriebt nicht mehr bei 2,7V aus! Dieses hat sehr oft zu folge gehabt das dass Funkmodul unkontroliert Daten sendet und DC auf 100% Ansteigt und nix mehr geht.
+-> **Jetzt Schaltet der Arduino bei Batteriebetriebt nicht mehr bei 2,7V aus! Dieses hat sehr oft zu folge gehabt das dass Funkmodul unkontrolliert Daten sendet und DC auf 100% Ansteigt und nix mehr geht.**
