@@ -1,10 +1,10 @@
-#Change Fuse Bits of Arduino Pro Mini
-## benötigte Hardware
+##Change Fuse Bits of Arduino Pro Mini
+# benötigte Hardware
  * 1x Arduino Pro Mini **ATmega328P (3.3V/8MHz)**
  * 1x [USB ISP Programmer für ATMEL AVR](https://de.aliexpress.com/item/1LOT-New-USBASP-USBISP-AVR-Programmer-USB-ISP-USB-ASP-ATMEGA8-ATMEGA128-Support-Win7-64/32724669918.html)
 
 
-1. [Anleitung zur Instalation des Treibers und Avrdude hier] (http://stefanfrings.de/avr_tools/#avrdude)
+1. Anleitung zur Instalation des Treibers und Avrdude hier http://stefanfrings.de/avr_tools/#avrdude
 
 Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
 
@@ -14,7 +14,7 @@ Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
 ![complete](Images/2.jpg)
 ![complete](Images/2b.jpg)
 
-3. Comandozeile Öffnen und folgenden Befehl eingeben: avrdude -v -pm328p -cusbasp -Ulfuse:r:-:h -Uhfuse:r:-:h -Uefuse:r:-:h  
+3. Kommandozeile Öffnen und folgenden Befehl eingeben: avrdude -v -pm328p -cusbasp -Ulfuse:r:-:h -Uhfuse:r:-:h -Uefuse:r:-:h  
 
 Wenn Ihr alles richtig gemacht habt sieht es wie folgt aus.
 ![complete](Images/3.jpg)
