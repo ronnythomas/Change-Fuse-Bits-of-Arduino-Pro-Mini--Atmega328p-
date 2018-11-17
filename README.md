@@ -1,5 +1,5 @@
 ## Change Fuse Bits of Arduino Pro Mini
-# benötigte Hardware
+**benötigte Hardware**
  * 1x Arduino Pro Mini **ATmega328P (3.3V/8MHz)**
  * 1x [USB ISP Programmer für ATMEL AVR](https://de.aliexpress.com/item/1LOT-New-USBASP-USBISP-AVR-Programmer-USB-ISP-USB-ASP-ATMEGA8-ATMEGA128-Support-Win7-64/32724669918.html)
 
