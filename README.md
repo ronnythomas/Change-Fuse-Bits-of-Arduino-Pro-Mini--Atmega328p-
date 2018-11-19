@@ -14,7 +14,7 @@ Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
 ![complete](Images/2.jpg)
 ![complete](Images/2b.jpg)
 
-3. Kommandozeile Öffnen und folgenden Befehl eingeben: **avrdude -v -pm328p -cusbasp -Ulfuse:r:-:h -Uhfuse:r:-:h -Uefuse:r:-:h**  
+3. Kommandozeile Öffnen und folgenden Befehl eingeben: **avrdude -v -pm328p -cusbasp -Ulfuse:w:0xFF:m -Uhfuse:w:0xD0:m -Uefuse:w:0xFF:m**  
 
 Wenn Ihr alles richtig gemacht habt sieht es wie folgt aus.
 ![complete](Images/3.jpg)
