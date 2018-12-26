@@ -1,12 +1,12 @@
 ## Change Fuse Bits of Arduino Pro Mini
-**benötigte Hardware**
+**benÃ¶tigte Hardware**
  * 1x Arduino Pro Mini **ATmega328P (3.3V/8MHz)**
- * 1x [USB ISP Programmer für ATMEL AVR](https://de.aliexpress.com/item/1LOT-New-USBASP-USBISP-AVR-Programmer-USB-ISP-USB-ASP-ATMEGA8-ATMEGA128-Support-Win7-64/32724669918.html)
+ * 1x [USB ISP Programmer fÃ¼r ATMEL AVR](https://de.aliexpress.com/item/1LOT-New-USBASP-USBISP-AVR-Programmer-USB-ISP-USB-ASP-ATMEGA8-ATMEGA128-Support-Win7-64/32724669918.html)
 
 
 1. Anleitung zur Installation des Treibers und Avrdude hier http://stefanfrings.de/avr_tools/#avrdude
 
-Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
+Das GerÃ¤t sollte dann wie auf den Bild zu sehen Installiert sein.
 
 ![complete](Images/1.jpg)
 
@@ -14,10 +14,10 @@ Das Gerät sollte dann wie auf den Bild zu sehen Installiert sein.
 ![complete](Images/2.jpg)
 ![complete](Images/2b.jpg)
 
-3. Kommandozeile Öffnen und folgenden Befehl eingeben: **avrdude -v -pm328p -cusbasp -Ulfuse:w:0xFF:m -Uhfuse:w:0xD0:m -Uefuse:w:0xFF:m**  
+3. Kommandozeile Ã–ffnen und folgenden Befehl eingeben: **avrdude -v -pm328p -cusbasp -Ulfuse:w:0xFF:m -Uhfuse:w:0xD2:m -Uefuse:w:0xFF:m**  
 
 Wenn Ihr alles richtig gemacht habt sieht es wie folgt aus.
 ![complete](Images/3.jpg)
 
-Jetzt sind die Fuse Bits geändert! 
+Jetzt sind die Fuse Bits geÃ¤ndert! 
 -> **Jetzt Schaltet der Arduino bei Batteriebetriebt nicht mehr unter 2,7V aus! Dieses hat sehr oft zu folge gehabt das dass Funkmodul unkontrolliert Daten sendet und DC auf 100% Ansteigt und nix mehr geht.**
